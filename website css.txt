@@ -1,0 +1,40 @@
+h1
+{
+  color: white;
+  text-align: center;
+}
+h2
+{
+  color: white;
+  text-align: center;
+}
+h3
+{
+  color: white;
+}
+body
+{
+     background-image: url("https://atgbcentral.com/data/out/39/4241111-video-wallpaper.jpg");
+}
+input[type=submit] {
+  width: 30%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.column {
+  float: left;
+  width: 37%;
+}
+.row:after {
+  content: "";
+  display: table;
+}
+div2
+{
+  color: white;
+}
