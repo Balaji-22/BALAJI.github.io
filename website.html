@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+  div {
+    width: 300px;
+    border: 15px solid skyblue;
+    padding: 50px;
+    margin: 20px;
+  }
+  </style>
+  <link rel="stylesheet" type="text/css" href="website css.css">
+  <title>SPIDER INDUCTION TASK WEBPAGE</title>
+  </head>
+  <body>
+  <h1>SUBMISSION FORM</h1>
+  <div1 class="row">
+   <div class="column" name="sign in">
+    <form name="SIGN IN">
+     <h2>SIGN IN</h2><br>
+     <h3>FIRST NAME:</h3><br><br>
+     <input type="text" name="Firstname">
+     <br><br>
+
+     <h3>LAST NAME:</h3><br><br>
+     <input type="text" name="lastname">
+     <br><br>
+
+     <div2>
+     <h3>GENDER:</h3><br>
+     Male<input type="radio" name="gender" value="MALE">
+     Female<input type="radio" name="gender" value="FEMALE">
+     Other<input type="radio" name="gender" value="OTHER">
+     <br><br>
+    </div2>
+
+     <h3>AGE:</h3><br><br>
+     <input type="number" name="AGE" min="12" max="100">
+     <br><br>
+
+     <h3>EMAIL ID:</h3><br><br>
+     <input type="email" name="email">
+     <script src="email-validation.js"></script>
+     <br><br>
+
+     <h3>PASSWORD:</h3><br><br>
+     <input type="password" name="password">
+     <br><br>
+
+     <input type="submit" name="submit" value="submit">
+     </form>
+   </div>
+   <div class="column" name="log in">
+   <form name="Log in">
+
+     <h2>LOG IN</h2>
+
+     <h3>EMAIL ID:</h3><br><br>
+     <input type="email" name="email">
+     <script src="email-validation.js"></script>
+     <br><br>
+
+     <h3>PASSWORD:</h3><br>
+     <script type="text/javascript">
+     function myFunction() {
+     var x = document.getElementById("myInput");
+     if (x.type === "password") {
+     x.type = "text";
+     } else {
+     x.type = "password";
+     }
+     }
+     </script>
+     <input type="password" name="password" id="myInput"><br><br>
+     <input type="checkbox" onclick="myFunction()">Show Password
+     <br><br>
+     <input type="button" onclick="location.href='https://www.youtube.com/user/SpiderNitt';" value="submit" color="green">
+
+</html>
